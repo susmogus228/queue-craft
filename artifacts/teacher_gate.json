@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "count": 18,
+  "semantics": "append-only serial generator; all unfinished job heads eligible for offline planning",
+  "cases": [
+    {
+      "instance": "Uniform 3x3 / 800000",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 46,
+      "replay_makespan": 46
+    },
+    {
+      "instance": "Uniform 5x4 / 800001",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 89,
+      "replay_makespan": 89
+    },
+    {
+      "instance": "Uniform 5x5 / 800002",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 86,
+      "replay_makespan": 86
+    },
+    {
+      "instance": "Uniform 4x3 / 800003",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 45,
+      "replay_makespan": 45
+    },
+    {
+      "instance": "Uniform 4x4 / 800004",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 66,
+      "replay_makespan": 66
+    },
+    {
+      "instance": "Uniform 6x5 / 800005",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 87,
+      "replay_makespan": 87
+    },
+    {
+      "instance": "Uniform 3x3 / 800006",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 50,
+      "replay_makespan": 50
+    },
+    {
+      "instance": "Uniform 5x4 / 800007",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 62,
+      "replay_makespan": 62
+    },
+    {
+      "instance": "Uniform 5x5 / 800008",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 95,
+      "replay_makespan": 95
+    },
+    {
+      "instance": "Uniform 4x3 / 800009",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 56,
+      "replay_makespan": 56
+    },
+    {
+      "instance": "Uniform 4x4 / 800010",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 76,
+      "replay_makespan": 76
+    },
+    {
+      "instance": "Uniform 6x5 / 800011",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 92,
+      "replay_makespan": 92
+    },
+    {
+      "instance": "Uniform 3x3 / 800012",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 47,
+      "replay_makespan": 47
+    },
+    {
+      "instance": "Uniform 5x4 / 800013",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 73,
+      "replay_makespan": 73
+    },
+    {
+      "instance": "Uniform 5x5 / 800014",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 112,
+      "replay_makespan": 112
+    },
+    {
+      "instance": "Uniform 4x3 / 800015",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 52,
+      "replay_makespan": 52
+    },
+    {
+      "instance": "Uniform 4x4 / 800016",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 63,
+      "replay_makespan": 63
+    },
+    {
+      "instance": "Uniform 6x5 / 800017",
+      "teacher_status": "OPTIMAL",
+      "teacher_makespan": 91,
+      "replay_makespan": 91
+    }
+  ]
+}

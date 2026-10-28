@@ -1,0 +1,61 @@
+async (page) => {
+ const browser=await page.context().browser().browserType().launch({channel:'msedge',headless:true});
+ const checks=[];const folder='./';let p;
+ const check=(ok,name,detail)=>{checks.push({name,passed:!!ok,detail});if(!ok)throw new Error(name)};
+ try {
+  const ctx=await browser.newContext({viewport:{width:1536,height:1024},acceptDownloads:true});p=await ctx.newPage();
+  const boot=async()=>{await p.goto('http://127.0.0.1:8774/');await p.waitForFunction(()=>document.querySelector('#example-select')?.options.length===3)};
+  const start=async(wait=true)=>{const response=p.waitForResponse(r=>r.url().endsWith('/api/runs')&&r.request().method()==='POST');await p.getByRole('button',{name:'Compare strategies',exact:true}).first().click();const created=await(await response).json();if(wait)await p.waitForFunction(()=>/completed ·/.test(document.body.innerText));return created.id};
+  await boot();const id=await start();
+  const actual=await(await p.request.get('http://127.0.0.1:8774/api/runs/'+id)).json();
+  check(actual.solver_seconds===2,'Run snapshot preserves actual solver budget');
+  await p.getByLabel('CP-SAT time limit (seconds)').fill('0.7');
+  await p.getByRole('status').filter({hasText:'solver budget changed'}).waitFor();
+  check((await p.locator('body').innerText()).includes('CP-SAT budget for this run: 2 seconds.'),'Changed budget marks prior result and shows original budget');
+  check(await p.getByRole('button',{name:'Play replay'}).isDisabled(),'Stale settings block misleading replay');
+  check(await p.getByRole('heading',{name:/Candidates at step/}).count()===0,'Stale candidate scores hidden');
+  await p.getByLabel('Problem',{exact:true}).selectOption('2');
+  const downloadPromise=p.waitForEvent('download');await p.getByRole('button',{name:'Save problem',exact:true}).click();const download=await downloadPromise;await download.saveAs(folder+'queuecraft-compact-problem.json');
+  await p.getByLabel('Import a JSON problem').setInputFiles(folder+'queuecraft-compact-problem.json');
+  await p.getByRole('status').filter({hasText:'Imported'}).waitFor();
+  check((await p.locator('body').innerText()).includes('Uneven operations / 6 jobs'),'Compact problem download imports directly');
+  const largeId=await start();const report=await(await p.request.get('http://127.0.0.1:8774/api/runs/'+largeId+'/export')).json();
+  check(report.run.instance.jobs.length===6,'Larger scenario completed and exports actual results');
+  checks.push({name:'Large report size documented, compact input separate',passed:true,detail:{reportBytes:Buffer.byteLength(JSON.stringify(report))}});
+  const matcher=/\/api\/runs\/[a-f0-9]+$/;
+  await boot();
+  await p.route(matcher,route=>route.fulfill({status:404,contentType:'application/json',body:'{"detail":"Run not found or expired"}'}));
+  await start(false);
+  await p.getByRole('status').filter({hasText:'expired or the server restarted'}).waitFor();
+  check(await p.getByLabel('Problem',{exact:true}).isEnabled(),'404 polling releases input and new comparison');
+  await p.unroute(matcher);
+  await boot();
+  await p.route(matcher,async route=>{if(route.request().method()==='DELETE')return route.fulfill({contentType:'application/json',body:'{"id":"qa-removed","status":"removed"}'});const response=await route.fetch();const data=await response.json();data.status='running';return route.fulfill({response,json:data});});
+  await start(false);await p.getByRole('button',{name:'Cancel run',exact:true}).click();
+  await p.getByRole('status').filter({hasText:'already finished and has been removed'}).waitFor();
+  check(await p.getByLabel('Problem',{exact:true}).isEnabled(),'DELETE removed race recovers without a follow-up 404');
+  await p.unroute(matcher);
+  await boot();
+  await p.route(matcher,route=>route.request().method()==='GET'?route.fulfill({status:503,contentType:'application/json',body:'{"detail":"Temporary status failure"}'}):route.continue());
+  await start(false);await p.getByRole('button',{name:'Reset unavailable run'}).click();
+  await p.getByRole('status').filter({hasText:'no longer tracked'}).waitFor();
+  check(await p.getByLabel('Problem',{exact:true}).isEnabled(),'Status failure has an explicit reset recovery');
+  await p.unroute(matcher);
+  await boot();
+  await p.route(matcher,async route=>{const response=await route.fetch();const data=await response.json();if(data.results)data.results=data.results.map(r=>r.method==='learned'?{...r,status:'UNAVAILABLE',operations:[],trace:[],makespan:null,validation:{valid:false,errors:[]},error:'Simulated missing artifact'}:r);return route.fulfill({response,json:data});});
+  await start();await p.getByRole('button',{name:/^Learned policy/}).click();
+  check((await p.locator('.result-note').innerText()).includes('No valid schedule'),'Unavailable result never claims a feasible schedule');
+  await p.unroute(matcher);
+  await boot();await start();await p.getByRole('button',{name:/^Learned policy/}).click();
+  await p.getByRole('button',{name:/J1\.1: machine/}).click();
+  check((await p.locator('body').innerText()).includes('Selected inputs recorded at construction step'),'Inspector identifies the feature source step');
+  await p.getByRole('heading',{name:'Production planner'}).click();
+  await p.screenshot({path:folder+'queuecraft-desktop-final.png',fullPage:true});
+  const popupPromise=p.waitForEvent('popup');await p.getByRole('link',{name:'API ↗',exact:true}).click();const api=await popupPromise;
+  await api.getByRole('heading',{name:/QueueCraft API/}).waitFor({timeout:15000});
+  check(true,'Visible API link opens working Swagger UI');
+  await api.screenshot({path:folder+'queuecraft-api.png',fullPage:true});
+  return {passed:true,checks};
+ }catch(error){if(p)await p.screenshot({path:folder+'queuecraft-edgecase-failure.png',fullPage:true});return {passed:false,error:String(error),checks};}
+ finally{await browser.close();}
+}

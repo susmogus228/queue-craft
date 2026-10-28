@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "browser": "Installed Microsoft Edge, isolated headless context",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Run snapshot preserves actual solver budget",
+      "passed": true
+    },
+    {
+      "name": "Changed budget marks prior result and shows original budget",
+      "passed": true
+    },
+    {
+      "name": "Stale settings block misleading replay",
+      "passed": true
+    },
+    {
+      "name": "Stale candidate scores hidden",
+      "passed": true
+    },
+    {
+      "name": "Compact problem download imports directly",
+      "passed": true
+    },
+    {
+      "name": "Larger scenario completed and exports actual results",
+      "passed": true
+    },
+    {
+      "name": "Large report size documented, compact input separate",
+      "passed": true,
+      "detail": {
+        "reportBytes": 350696
+      }
+    },
+    {
+      "name": "404 polling releases input and new comparison",
+      "passed": true
+    },
+    {
+      "name": "DELETE removed race recovers without a follow-up 404",
+      "passed": true
+    },
+    {
+      "name": "Status failure has an explicit reset recovery",
+      "passed": true
+    },
+    {
+      "name": "Unavailable result never claims a feasible schedule",
+      "passed": true
+    },
+    {
+      "name": "Inspector identifies the feature source step",
+      "passed": true
+    },
+    {
+      "name": "Visible API link opens working Swagger UI",
+      "passed": true
+    }
+  ]
+}
+

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.joblib binary
+data/*.json -text
+artifacts/*.json -text

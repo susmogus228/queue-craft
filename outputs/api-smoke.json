@@ -1,0 +1,40 @@
+{
+  "health": {
+    "status": "ok",
+    "model_ready": true
+  },
+  "model_version": "0.1.0",
+  "methods": [
+    {
+      "method": "fifo",
+      "status": "FEASIBLE",
+      "makespan": 12,
+      "wall_seconds": 0.00015229999962684815
+    },
+    {
+      "method": "spt",
+      "status": "FEASIBLE",
+      "makespan": 18,
+      "wall_seconds": 0.00013910000006944756
+    },
+    {
+      "method": "mwkr",
+      "status": "FEASIBLE",
+      "makespan": 12,
+      "wall_seconds": 0.00013870000020688167
+    },
+    {
+      "method": "learned",
+      "status": "FEASIBLE",
+      "makespan": 12,
+      "wall_seconds": 0.012506999999914115
+    },
+    {
+      "method": "cp_sat",
+      "status": "OPTIMAL",
+      "makespan": 11,
+      "wall_seconds": 0.0033776999998735846
+    }
+  ],
+  "export_matches_input": true
+}

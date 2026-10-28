@@ -1,0 +1,324 @@
+{
+  "ready": true,
+  "version": "0.1.0",
+  "model_type": "HistGradientBoostingRegressor operation ranker",
+  "sha256": "8e5282baf220f660a1fc3908b4265c95831720a8ddccb40024b3343f6f884e1d",
+  "sklearn_version": "1.9.1",
+  "feature_names": [
+    "duration",
+    "remaining_work",
+    "successor_work",
+    "earliest_start",
+    "earliest_finish",
+    "job_ready",
+    "machine_ready",
+    "machine_work_left",
+    "job_progress",
+    "remaining_fraction",
+    "machine_wait",
+    "job_wait",
+    "job_count",
+    "machine_count",
+    "machine_busy_fraction"
+  ],
+  "selected_configuration": 2,
+  "data_sha256": "92d02eab165efc371a4b957d26a5911a06232978aa6a7d427e85384208c59fb1",
+  "training_summary": {
+    "instances": 240,
+    "development_instances": 48,
+    "label_rows": 18242,
+    "fits": 3,
+    "teacher_optimal_count": 240,
+    "teacher_replay_pass_count": 240,
+    "teacher_and_label_seconds": 4.538281799999936,
+    "total_training_seconds": 13.12750779999999
+  },
+  "candidates": [
+    {
+      "index": 0,
+      "config": {
+        "max_iter": 80,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 15,
+        "l2_regularization": 0.5,
+        "random_state": 11
+      },
+      "fit_seconds": 1.4739207999999735,
+      "development_selection_ratio": 1.0194264376920177,
+      "development": {
+        "count": 48,
+        "methods": {
+          "fifo": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 108.77083333333333,
+            "median_wall_ms": 0.279299999988325
+          },
+          "spt": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 150.58333333333334,
+            "median_wall_ms": 0.2507000000377957
+          },
+          "mwkr": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 118.70833333333333,
+            "median_wall_ms": 0.285200000007535
+          },
+          "learned": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 107.5625,
+            "median_wall_ms": 13.43370000000732
+          }
+        },
+        "paired": {
+          "fifo": {
+            "count": 48,
+            "wins": 19,
+            "ties": 12,
+            "losses": 17,
+            "mean_improvement_percent": 0.2979846749903431,
+            "median_improvement_percent": 0.0,
+            "worst_improvement_percent": -30.18867924528302,
+            "mean_improvement_ci95_percent": [
+              -3.227819153353652,
+              3.9715475755498013
+            ]
+          },
+          "spt": {
+            "count": 48,
+            "wins": 45,
+            "ties": 2,
+            "losses": 1,
+            "mean_improvement_percent": 25.87275888879404,
+            "median_improvement_percent": 23.82557633753806,
+            "worst_improvement_percent": -6.153846153846154,
+            "mean_improvement_ci95_percent": [
+              21.529164152274628,
+              30.420335346755643
+            ]
+          },
+          "mwkr": {
+            "count": 48,
+            "wins": 33,
+            "ties": 7,
+            "losses": 8,
+            "mean_improvement_percent": 8.277888220284824,
+            "median_improvement_percent": 5.2558910162002945,
+            "worst_improvement_percent": -25.165562913907287,
+            "mean_improvement_ci95_percent": [
+              4.427287444188086,
+              11.97174454338125
+            ]
+          },
+          "best_of_rules": {
+            "count": 48,
+            "wins": 17,
+            "ties": 11,
+            "losses": 20,
+            "mean_improvement_percent": -1.9426437692017753,
+            "median_improvement_percent": 0.0,
+            "worst_improvement_percent": -30.18867924528302,
+            "mean_improvement_ci95_percent": [
+              -5.1299493579543105,
+              1.1055222606401534
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "config": {
+        "max_iter": 140,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0,
+        "random_state": 23
+      },
+      "fit_seconds": 1.5758680999999797,
+      "development_selection_ratio": 1.011047465778134,
+      "development": {
+        "count": 48,
+        "methods": {
+          "fifo": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 108.77083333333333,
+            "median_wall_ms": 0.30494999998609273
+          },
+          "spt": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 150.58333333333334,
+            "median_wall_ms": 0.25329999999712527
+          },
+          "mwkr": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 118.70833333333333,
+            "median_wall_ms": 0.28290000000197324
+          },
+          "learned": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 106.33333333333333,
+            "median_wall_ms": 21.458049999978357
+          }
+        },
+        "paired": {
+          "fifo": {
+            "count": 48,
+            "wins": 21,
+            "ties": 11,
+            "losses": 16,
+            "mean_improvement_percent": 1.1018602454282849,
+            "median_improvement_percent": 0.0,
+            "worst_improvement_percent": -24.528301886792452,
+            "mean_improvement_ci95_percent": [
+              -1.7787098401067265,
+              4.045949826012543
+            ]
+          },
+          "spt": {
+            "count": 48,
+            "wins": 47,
+            "ties": 0,
+            "losses": 1,
+            "mean_improvement_percent": 26.287946206639305,
+            "median_improvement_percent": 24.628712871287128,
+            "worst_improvement_percent": -12.727272727272727,
+            "mean_improvement_ci95_percent": [
+              21.814631822782022,
+              30.784203113073843
+            ]
+          },
+          "mwkr": {
+            "count": 48,
+            "wins": 33,
+            "ties": 5,
+            "losses": 10,
+            "mean_improvement_percent": 8.988717174599246,
+            "median_improvement_percent": 6.280022048980236,
+            "worst_improvement_percent": -8.333333333333332,
+            "mean_improvement_ci95_percent": [
+              5.872387163877763,
+              12.338073179769056
+            ]
+          },
+          "best_of_rules": {
+            "count": 48,
+            "wins": 17,
+            "ties": 10,
+            "losses": 21,
+            "mean_improvement_percent": -1.1047465778134145,
+            "median_improvement_percent": 0.0,
+            "worst_improvement_percent": -24.528301886792452,
+            "mean_improvement_ci95_percent": [
+              -3.4073368729014057,
+              1.3109774227376656
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "config": {
+        "max_iter": 180,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 25,
+        "l2_regularization": 2.0,
+        "random_state": 47
+      },
+      "fit_seconds": 1.6102615000000924,
+      "development_selection_ratio": 1.0005342370653854,
+      "development": {
+        "count": 48,
+        "methods": {
+          "fifo": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 108.77083333333333,
+            "median_wall_ms": 0.2538499999786836
+          },
+          "spt": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 150.58333333333334,
+            "median_wall_ms": 0.2198999999905027
+          },
+          "mwkr": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 118.70833333333333,
+            "median_wall_ms": 0.2580999999395317
+          },
+          "learned": {
+            "valid_count": 48,
+            "optimal_count": 0,
+            "mean_makespan": 105.14583333333333,
+            "median_wall_ms": 25.959200000045257
+          }
+        },
+        "paired": {
+          "fifo": {
+            "count": 48,
+            "wins": 24,
+            "ties": 9,
+            "losses": 15,
+            "mean_improvement_percent": 2.1715132708047484,
+            "median_improvement_percent": 0.33783783783783783,
+            "worst_improvement_percent": -31.48148148148148,
+            "mean_improvement_ci95_percent": [
+              -0.7357665111506216,
+              5.129513915254652
+            ]
+          },
+          "spt": {
+            "count": 48,
+            "wins": 47,
+            "ties": 0,
+            "losses": 1,
+            "mean_improvement_percent": 26.895883312780796,
+            "median_improvement_percent": 25.883430884524916,
+            "worst_improvement_percent": -29.09090909090909,
+            "mean_improvement_ci95_percent": [
+              21.900315257785778,
+              31.538548031380483
+            ]
+          },
+          "mwkr": {
+            "count": 48,
+            "wins": 34,
+            "ties": 6,
+            "losses": 8,
+            "mean_improvement_percent": 9.902097393438767,
+            "median_improvement_percent": 7.761816496756256,
+            "worst_improvement_percent": -9.836065573770492,
+            "mean_improvement_ci95_percent": [
+              6.3771707181642086,
+              13.500886961499925
+            ]
+          },
+          "best_of_rules": {
+            "count": 48,
+            "wins": 19,
+            "ties": 11,
+            "losses": 18,
+            "mean_improvement_percent": -0.05342370653853049,
+            "median_improvement_percent": 0.0,
+            "worst_improvement_percent": -31.48148148148148,
+            "mean_improvement_ci95_percent": [
+              -2.5059440313795283,
+              2.4232987580341208
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "created_at": "2026-10-28T09:01:15.488123+00:00"
+}

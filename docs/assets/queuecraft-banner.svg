@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 320" role="img" aria-labelledby="title description">
+<title id="title">QueueCraft</title><desc id="description">A local learned-dispatch scheduling comparison workbench.</desc>
+<rect width="1400" height="320" fill="#0f0f0f"/>
+<path d="M48 40h1304M48 280h1304" stroke="#2a2a2a"/>
+<text x="54" y="108" fill="#67dfb1" font-family="monospace" font-size="17" letter-spacing="4">OPERATIONS / LEARNING / EVIDENCE</text>
+<text x="50" y="189" fill="#f1f3f2" font-family="system-ui,sans-serif" font-size="68" font-weight="700" letter-spacing="-2">QueueCraft</text>
+<text x="54" y="235" fill="#a8afac" font-family="system-ui,sans-serif" font-size="22">Learned dispatch, measured trade-offs.</text>
+<g transform="translate(855 80)" font-family="monospace" font-size="15" fill="#c2c8c5">
+<path d="M40 0v159M103 0v159M166 0v159M229 0v159M292 0v159M355 0v159M418 0v159" stroke="#252c28"/>
+<text x="0" y="36">M1</text><text x="0" y="88">M2</text><text x="0" y="140">M3</text>
+<rect x="42" y="12" width="115" height="35" rx="3" fill="#67dfb1"/><rect x="162" y="12" width="77" height="35" rx="3" fill="#89988f"/>
+<rect x="42" y="64" width="150" height="35" rx="3" fill="#546d60"/><rect x="197" y="64" width="76" height="35" rx="3" fill="#67dfb1"/><rect x="278" y="64" width="134" height="35" rx="3" fill="#89988f"/>
+<rect x="237" y="116" width="35" height="35" rx="3" fill="#89988f"/><rect x="278" y="116" width="72" height="35" rx="3" fill="#546d60"/><rect x="355" y="116" width="57" height="35" rx="3" fill="#67dfb1"/>
+</g></svg>

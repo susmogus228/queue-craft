@@ -1,0 +1,2183 @@
+{
+  "rows": 18242,
+  "features": [
+    "duration",
+    "remaining_work",
+    "successor_work",
+    "earliest_start",
+    "earliest_finish",
+    "job_ready",
+    "machine_ready",
+    "machine_work_left",
+    "job_progress",
+    "remaining_fraction",
+    "machine_wait",
+    "job_wait",
+    "job_count",
+    "machine_count",
+    "machine_busy_fraction"
+  ],
+  "teacher_instances": [
+    {
+      "group": "66255d59b0edd30b36c0f904b239e9d0f417dda715c088910ec3d055c109d353",
+      "replay_valid": true,
+      "replay_makespan": 51,
+      "teacher_makespan": 51,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 51
+    },
+    {
+      "group": "5de1bf9a587ce3f669c3058e2bf5fa89462b0623e21206fa3ece649d583d98a3",
+      "replay_valid": true,
+      "replay_makespan": 71,
+      "teacher_makespan": 71,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 83,
+      "trajectory_makespan": 71
+    },
+    {
+      "group": "0ac06a35b1c95508755dd815f4602248c17dd13bdbac423badd45bd6ab2ea0c4",
+      "replay_valid": true,
+      "replay_makespan": 77,
+      "teacher_makespan": 77,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 109,
+      "trajectory_makespan": 77
+    },
+    {
+      "group": "182394ee20a6a4f29c4b5f365111988df9e4d578c40b3fa74dbce283bfefe5bc",
+      "replay_valid": true,
+      "replay_makespan": 108,
+      "teacher_makespan": 108,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 108
+    },
+    {
+      "group": "78ce4d9e25f48a71633fe569c8091591ce1d2c5b5352dc8c52d49025596e5cbb",
+      "replay_valid": true,
+      "replay_makespan": 128,
+      "teacher_makespan": 128,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 49,
+      "trajectory_makespan": 128
+    },
+    {
+      "group": "27d89a3226b6026ceba34e7a0722644ee90c0309e7b6228e2d97d6fc51efdffc",
+      "replay_valid": true,
+      "replay_makespan": 152,
+      "teacher_makespan": 152,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 150,
+      "trajectory_makespan": 152
+    },
+    {
+      "group": "6dc02b18396c9567cc6b39d751016333a8377c059f35d1386e1242a2ffe2a5ef",
+      "replay_valid": true,
+      "replay_makespan": 95,
+      "teacher_makespan": 95,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 95
+    },
+    {
+      "group": "c6cc4a862e5e6b4fa8d0431989baa7d3df4eb6dd2f6d9972ed6cea9f1e5cb7c5",
+      "replay_valid": true,
+      "replay_makespan": 92,
+      "teacher_makespan": 92,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 87,
+      "trajectory_makespan": 92
+    },
+    {
+      "group": "550a3ed1f06c3aca69997834b6ae609a474343f26756e2861c39edd65496bc9d",
+      "replay_valid": true,
+      "replay_makespan": 107,
+      "teacher_makespan": 107,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 104,
+      "trajectory_makespan": 107
+    },
+    {
+      "group": "5cf6e831edfd8af1114716f6d74b846ac233f65185619dea256a8ff0983db821",
+      "replay_valid": true,
+      "replay_makespan": 65,
+      "teacher_makespan": 65,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 65
+    },
+    {
+      "group": "f8e94c77a6aaafeccbd2eda917c215c072e4503b9ed9a9f71a64ff75270f36c7",
+      "replay_valid": true,
+      "replay_makespan": 68,
+      "teacher_makespan": 68,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 68
+    },
+    {
+      "group": "14fbd4e2a90c54cb3e409c9de861a35910b5d48716a2cbd3f52ddf03e7b0fb69",
+      "replay_valid": true,
+      "replay_makespan": 86,
+      "teacher_makespan": 86,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 161,
+      "trajectory_makespan": 86
+    },
+    {
+      "group": "9acc5eb83af966466d60485cb63f1e952169ade35104e2c5de313425e5b1def2",
+      "replay_valid": true,
+      "replay_makespan": 70,
+      "teacher_makespan": 70,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 70
+    },
+    {
+      "group": "64643b3c4c99e95092cc1ce3548949d9338609e73c6db112276d5c9ac7aa2411",
+      "replay_valid": true,
+      "replay_makespan": 127,
+      "teacher_makespan": 127,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 79,
+      "trajectory_makespan": 127
+    },
+    {
+      "group": "9c1770428c79b19f0a5d819252eb62b0b646f64c96d23032b27eabb60aac572d",
+      "replay_valid": true,
+      "replay_makespan": 124,
+      "teacher_makespan": 124,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 98,
+      "trajectory_makespan": 124
+    },
+    {
+      "group": "5fe153ce6b38b67c28ea93ca6f65bcc44677c129e512d6ed3a7723c7310d761b",
+      "replay_valid": true,
+      "replay_makespan": 65,
+      "teacher_makespan": 65,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 38,
+      "trajectory_makespan": 65
+    },
+    {
+      "group": "65b96d5bc962f018f863dc786efac502bfb787c847fabfbf5f8c3960017325e3",
+      "replay_valid": true,
+      "replay_makespan": 153,
+      "teacher_makespan": 153,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 57,
+      "trajectory_makespan": 153
+    },
+    {
+      "group": "4a17abffbd4f4736917501164468f681fce0c095dac0a24764b2698bb822b18f",
+      "replay_valid": true,
+      "replay_makespan": 102,
+      "teacher_makespan": 102,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 149,
+      "trajectory_makespan": 102
+    },
+    {
+      "group": "1083a9196d33d88f0d0274da74f81e9b45160f01be1c312599dc791f797674b5",
+      "replay_valid": true,
+      "replay_makespan": 45,
+      "teacher_makespan": 45,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 45
+    },
+    {
+      "group": "77e9291836183b9420b1d4ddf45fedf92f0f380427af5ac944095fad09536453",
+      "replay_valid": true,
+      "replay_makespan": 82,
+      "teacher_makespan": 82,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 82
+    },
+    {
+      "group": "af5792f6b69d28df51c65f87b6fe95ae15f3f74f254cfda5d84ad5c9adbaa98f",
+      "replay_valid": true,
+      "replay_makespan": 89,
+      "teacher_makespan": 89,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 108,
+      "trajectory_makespan": 89
+    },
+    {
+      "group": "9b44db4c713e3419efc02c37102cd70297e7366651ff22193b7f9f02e1930bbf",
+      "replay_valid": true,
+      "replay_makespan": 117,
+      "teacher_makespan": 117,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 117
+    },
+    {
+      "group": "86364c156bc18b13263c6c3f22de76af333bbe83d7382252344b382093c51240",
+      "replay_valid": true,
+      "replay_makespan": 120,
+      "teacher_makespan": 120,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 54,
+      "trajectory_makespan": 120
+    },
+    {
+      "group": "87d738fac4e403beee499030291e49c8c47efe6d7bfc0a992e2f3d414a9226e1",
+      "replay_valid": true,
+      "replay_makespan": 133,
+      "teacher_makespan": 133,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 158,
+      "trajectory_makespan": 133
+    },
+    {
+      "group": "75d9e12ea762fb1ab536c932a83361dbadd461be279233ea9c967cfedd4c7616",
+      "replay_valid": true,
+      "replay_makespan": 23,
+      "teacher_makespan": 23,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 23
+    },
+    {
+      "group": "92849f8741f56628486bf11c712172df77caa7092a2d962d5055522a70c1be43",
+      "replay_valid": true,
+      "replay_makespan": 118,
+      "teacher_makespan": 118,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 90,
+      "trajectory_makespan": 118
+    },
+    {
+      "group": "1cea3813c1feb680eb98e952e2cdec5b28cf534bb699e835325a0458ed2e2288",
+      "replay_valid": true,
+      "replay_makespan": 179,
+      "teacher_makespan": 179,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 102,
+      "trajectory_makespan": 179
+    },
+    {
+      "group": "960de3894a33233c9f6cd59ccfee395515d4ccd5a87e3b8d3d08e9b846f16174",
+      "replay_valid": true,
+      "replay_makespan": 51,
+      "teacher_makespan": 51,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 51
+    },
+    {
+      "group": "ac8ed43106a01aa58f80c686728b4ba101f94d8a29644477554f83721f7aefd7",
+      "replay_valid": true,
+      "replay_makespan": 71,
+      "teacher_makespan": 71,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 71
+    },
+    {
+      "group": "786bc69b689781617c86d3493f1335cbec4e6735628e9042844673513abd7fbd",
+      "replay_valid": true,
+      "replay_makespan": 87,
+      "teacher_makespan": 87,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 154,
+      "trajectory_makespan": 87
+    },
+    {
+      "group": "d431b2526534a238ac11c06f2648fd6c3e0a01d84eea739613eab81661bd6601",
+      "replay_valid": true,
+      "replay_makespan": 76,
+      "teacher_makespan": 76,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 20,
+      "trajectory_makespan": 76
+    },
+    {
+      "group": "83b41c70b5d762189d1a9cdf18516959bfac0b3885f837eea57a4414fff39cc6",
+      "replay_valid": true,
+      "replay_makespan": 129,
+      "teacher_makespan": 129,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 85,
+      "trajectory_makespan": 129
+    },
+    {
+      "group": "15d13de4edf4886c1f41fa58c16acf6f7b1fd29da4014402bb4ad0f262250d92",
+      "replay_valid": true,
+      "replay_makespan": 147,
+      "teacher_makespan": 147,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 105,
+      "trajectory_makespan": 147
+    },
+    {
+      "group": "4ed00bc25452df9151e4f9a83dfafd6ea77eef5361323d3b74a665a65c0dc274",
+      "replay_valid": true,
+      "replay_makespan": 27,
+      "teacher_makespan": 27,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 27
+    },
+    {
+      "group": "004ed3afb7be8a60c95153b0f88b491d0a3a54c8afe8dfb6ec6289d2f47ebdcc",
+      "replay_valid": true,
+      "replay_makespan": 63,
+      "teacher_makespan": 63,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 55,
+      "trajectory_makespan": 63
+    },
+    {
+      "group": "f11356a55009cc021a2e9ada56ee53cfe500e94f29f5174c739f11517e9bc0dd",
+      "replay_valid": true,
+      "replay_makespan": 182,
+      "teacher_makespan": 182,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 135,
+      "trajectory_makespan": 182
+    },
+    {
+      "group": "6417e6cd3d5e060c688b6e02fc0fbe24d2e102387cabc5698bfa4088afdf81a3",
+      "replay_valid": true,
+      "replay_makespan": 68,
+      "teacher_makespan": 68,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 21,
+      "trajectory_makespan": 68
+    },
+    {
+      "group": "0e7bd93f08d4e85c62fcf7110c6df6e1210aedc7feaba07bd5e210dc482daf3c",
+      "replay_valid": true,
+      "replay_makespan": 71,
+      "teacher_makespan": 71,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 81,
+      "trajectory_makespan": 71
+    },
+    {
+      "group": "00e68ddf2df1fef2cc6c2e202c6082d3eb0d24430c8705cc53ba62b0fba176c7",
+      "replay_valid": true,
+      "replay_makespan": 97,
+      "teacher_makespan": 97,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 109,
+      "trajectory_makespan": 97
+    },
+    {
+      "group": "242039690388c4f2016e754b7013d20757976b46a76eb7b0f07b9e7fdd9b5acb",
+      "replay_valid": true,
+      "replay_makespan": 130,
+      "teacher_makespan": 130,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 130
+    },
+    {
+      "group": "b87d26e1428372729c2813d4ce824ff92dd4a8b59ecb42af301c29aee10c47f9",
+      "replay_valid": true,
+      "replay_makespan": 129,
+      "teacher_makespan": 129,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 54,
+      "trajectory_makespan": 129
+    },
+    {
+      "group": "6ed3f3d3e2a641bf192974d0b21dc89bfb280676bed663e5e2de4c7ade403b33",
+      "replay_valid": true,
+      "replay_makespan": 173,
+      "teacher_makespan": 173,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 153,
+      "trajectory_makespan": 173
+    },
+    {
+      "group": "54a3e794084b4396670ca2a0b712b0374268944a5220aa3817019b53f8271363",
+      "replay_valid": true,
+      "replay_makespan": 22,
+      "teacher_makespan": 22,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 22
+    },
+    {
+      "group": "9f5d44aee1ab15621935330d8fcc6233f3d83ee6a54186ee7e48e077deeda5c0",
+      "replay_valid": true,
+      "replay_makespan": 136,
+      "teacher_makespan": 136,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 81,
+      "trajectory_makespan": 136
+    },
+    {
+      "group": "e74790471c35d72c3f931380364b32ccec5d9a6dc74c37bc5692467d636a4f92",
+      "replay_valid": true,
+      "replay_makespan": 135,
+      "teacher_makespan": 135,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 105,
+      "trajectory_makespan": 135
+    },
+    {
+      "group": "4afe7a0518d0a8cf46c3515da6afed87aef4765d518c79daff9273319dbc1f39",
+      "replay_valid": true,
+      "replay_makespan": 58,
+      "teacher_makespan": 58,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 39,
+      "trajectory_makespan": 58
+    },
+    {
+      "group": "2dc240288cd7d7ab286238e46f72a0da0a35ab09cde373f3ffaba0d30fbd7faa",
+      "replay_valid": true,
+      "replay_makespan": 79,
+      "teacher_makespan": 79,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 79
+    },
+    {
+      "group": "5ad0fd1e32595827a5a442b24077ea3cd0dac181df372e51acf2f11ea391c420",
+      "replay_valid": true,
+      "replay_makespan": 96,
+      "teacher_makespan": 96,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 146,
+      "trajectory_makespan": 96
+    },
+    {
+      "group": "7c0659b5cd2172f682a5b9475dc81f10b75b35a61c6ee4ef825b7f6f7607b5cc",
+      "replay_valid": true,
+      "replay_makespan": 78,
+      "teacher_makespan": 78,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 78
+    },
+    {
+      "group": "a50a5b6f2055b71a08e8f25cc3db0de961a023def75e182eb29c13735ae16fb3",
+      "replay_valid": true,
+      "replay_makespan": 145,
+      "teacher_makespan": 145,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 89,
+      "trajectory_makespan": 145
+    },
+    {
+      "group": "0e79d1508872146ed6bf753ffbd8b9876d10164f352ab88e1667d774e75c882b",
+      "replay_valid": true,
+      "replay_makespan": 133,
+      "teacher_makespan": 133,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 92,
+      "trajectory_makespan": 133
+    },
+    {
+      "group": "580bf8652ec75327fe55f16f9707a356fe8a15ff782486c8ddaff3716be181dc",
+      "replay_valid": true,
+      "replay_makespan": 101,
+      "teacher_makespan": 101,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 41,
+      "trajectory_makespan": 101
+    },
+    {
+      "group": "f349797cbd585568383b43dfad80596e47631b55bf4d51f44682d3e3078b6067",
+      "replay_valid": true,
+      "replay_makespan": 132,
+      "teacher_makespan": 132,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 132
+    },
+    {
+      "group": "84d6bb5517ef64767ed9f4aaafa56426546faed5bfd9a74dd259e5c6a89a6439",
+      "replay_valid": true,
+      "replay_makespan": 154,
+      "teacher_makespan": 154,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 154,
+      "trajectory_makespan": 154
+    },
+    {
+      "group": "2091e2cd9bd12909e0069e7972492afb5cb64f7836937a483103335996ecf570",
+      "replay_valid": true,
+      "replay_makespan": 50,
+      "teacher_makespan": 50,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 50
+    },
+    {
+      "group": "d25a5abee4cd558153cbca5f5b5c99b560805c06dcdde15a7700f663ff0a39a6",
+      "replay_valid": true,
+      "replay_makespan": 75,
+      "teacher_makespan": 75,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 82,
+      "trajectory_makespan": 75
+    },
+    {
+      "group": "43c6d914b1e73592f67c621d4d1f9288b235178200c6f131d89099fec2e9f618",
+      "replay_valid": true,
+      "replay_makespan": 89,
+      "teacher_makespan": 89,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 115,
+      "trajectory_makespan": 89
+    },
+    {
+      "group": "abe86236cf3f33e7809367a3c13fe3baab778be4c038eef2b6b985a355a147db",
+      "replay_valid": true,
+      "replay_makespan": 99,
+      "teacher_makespan": 99,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 99
+    },
+    {
+      "group": "fe8f28dcda35e62c8055326dcc9ad3f9098fda87a8784c46f96002e99fa87cf8",
+      "replay_valid": true,
+      "replay_makespan": 123,
+      "teacher_makespan": 123,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 123
+    },
+    {
+      "group": "8410d79034398bca041c9ada675779d7900e4d860d2e8abb286c26162247a790",
+      "replay_valid": true,
+      "replay_makespan": 143,
+      "teacher_makespan": 143,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 138,
+      "trajectory_makespan": 143
+    },
+    {
+      "group": "86f818708f25a1eb0a493637d5df2fdbb02de47a73ca2a485cecba955f6799dc",
+      "replay_valid": true,
+      "replay_makespan": 91,
+      "teacher_makespan": 91,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 91
+    },
+    {
+      "group": "c1cc9005fecae05b82e78d31c4279243038c7f89a9adf5e31543a4707e27617b",
+      "replay_valid": true,
+      "replay_makespan": 160,
+      "teacher_makespan": 160,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 160
+    },
+    {
+      "group": "c8439ac9eee0e0818b6c0a7ff8073c71e2f63a4fd2947eed73e6ea20b56f22fd",
+      "replay_valid": true,
+      "replay_makespan": 118,
+      "teacher_makespan": 118,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 102,
+      "trajectory_makespan": 118
+    },
+    {
+      "group": "1eaa93febc0a30df2918a840f2922e666c6a54349ca8157164af69a50b8eace0",
+      "replay_valid": true,
+      "replay_makespan": 66,
+      "teacher_makespan": 66,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 66
+    },
+    {
+      "group": "869a34191f7e2df3c6100633f150f41dd461478e69d9b2bae4094dd83a971357",
+      "replay_valid": true,
+      "replay_makespan": 67,
+      "teacher_makespan": 67,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 55,
+      "trajectory_makespan": 67
+    },
+    {
+      "group": "808de5056326477018fc3306b36450091a4a45b5bd6f22db17f430f719106337",
+      "replay_valid": true,
+      "replay_makespan": 72,
+      "teacher_makespan": 72,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 143,
+      "trajectory_makespan": 72
+    },
+    {
+      "group": "2b6f575c172bb1d84b10ba34771f78a3f02ad3a1270d043d0e9ed8e1877f6255",
+      "replay_valid": true,
+      "replay_makespan": 78,
+      "teacher_makespan": 78,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 78
+    },
+    {
+      "group": "53e2129c01367c517f5caa4b4e38d142396b4d4148cd6c6412b63de5e25cc9a5",
+      "replay_valid": true,
+      "replay_makespan": 128,
+      "teacher_makespan": 128,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 128
+    },
+    {
+      "group": "55aec6ecda16f7eac5d4d7dca53813fa98eab97ed9bc659e45f10959a859508d",
+      "replay_valid": true,
+      "replay_makespan": 139,
+      "teacher_makespan": 139,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 100,
+      "trajectory_makespan": 139
+    },
+    {
+      "group": "6eb1e563c70e6d63e2a652096e6735fb5004c09e9919e028be0d07cabacca1f6",
+      "replay_valid": true,
+      "replay_makespan": 60,
+      "teacher_makespan": 60,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 60
+    },
+    {
+      "group": "1bfa59c6166391276b26bfeed1c483cb3db9e271b5374c43ba8d650c0778dea4",
+      "replay_valid": true,
+      "replay_makespan": 83,
+      "teacher_makespan": 83,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 54,
+      "trajectory_makespan": 83
+    },
+    {
+      "group": "4b101954ee14af3cba96cb50b0d11d928016252cf5646fcdd1768145cf7f445b",
+      "replay_valid": true,
+      "replay_makespan": 141,
+      "teacher_makespan": 141,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 140,
+      "trajectory_makespan": 141
+    },
+    {
+      "group": "1ffeb18028ef65494f3d8099ad93892c831e23446a5a10755a3fe1dbf66155c7",
+      "replay_valid": true,
+      "replay_makespan": 52,
+      "teacher_makespan": 52,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 52
+    },
+    {
+      "group": "2f4b4a4159fb07d7e3966b6f447302eb259a79af1198c605d9e324440c061900",
+      "replay_valid": true,
+      "replay_makespan": 82,
+      "teacher_makespan": 82,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 82
+    },
+    {
+      "group": "c15a996815bbbe8c78d8ab8d06b7e17c56d701ca3935dd31099c2ae65af82693",
+      "replay_valid": true,
+      "replay_makespan": 96,
+      "teacher_makespan": 96,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 103,
+      "trajectory_makespan": 96
+    },
+    {
+      "group": "038a7f2c7dbeef6afea92dd6e1cbf6a88185a6b331517db28ba80933a43fa2be",
+      "replay_valid": true,
+      "replay_makespan": 101,
+      "teacher_makespan": 101,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 36,
+      "trajectory_makespan": 101
+    },
+    {
+      "group": "66e4fb52d6d2f9fabf03b33b89b4cedaef43a4d4d49c13a901adb1fb9a77c5c1",
+      "replay_valid": true,
+      "replay_makespan": 102,
+      "teacher_makespan": 102,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 54,
+      "trajectory_makespan": 102
+    },
+    {
+      "group": "397633fb12a6fe449e962eb02c7f58e8ac8f230820dc9c80c41bdd7ce77f0397",
+      "replay_valid": true,
+      "replay_makespan": 177,
+      "teacher_makespan": 177,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 153,
+      "trajectory_makespan": 177
+    },
+    {
+      "group": "53241e4b425a980653f4495a5c76f88e511f65e2ffbc399a1392c66afd4ac782",
+      "replay_valid": true,
+      "replay_makespan": 76,
+      "teacher_makespan": 76,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 76
+    },
+    {
+      "group": "0ba87ec0a8a590e2c25f28b457a70f73c0aca8a797fea56bd6b1d38cc84841e6",
+      "replay_valid": true,
+      "replay_makespan": 174,
+      "teacher_makespan": 174,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 80,
+      "trajectory_makespan": 174
+    },
+    {
+      "group": "1daf10f3342fd38046f519489585ed76f7a1fb111aeef10dd31ee08d7125d25f",
+      "replay_valid": true,
+      "replay_makespan": 158,
+      "teacher_makespan": 158,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 103,
+      "trajectory_makespan": 158
+    },
+    {
+      "group": "cedc713773450d70e4da21c042d32ccd97102702295aaa84fa38708f869c33f4",
+      "replay_valid": true,
+      "replay_makespan": 52,
+      "teacher_makespan": 52,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 52
+    },
+    {
+      "group": "8949bb1b2ec38b26d10aeb11a722ac7cf80764557f9833db890935b148259af3",
+      "replay_valid": true,
+      "replay_makespan": 71,
+      "teacher_makespan": 71,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 71
+    },
+    {
+      "group": "9b4fea2bd9e38ccac5dfb5b0117f596ca370dcbe06120902744eabb3fcedd3f5",
+      "replay_valid": true,
+      "replay_makespan": 96,
+      "teacher_makespan": 96,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 165,
+      "trajectory_makespan": 96
+    },
+    {
+      "group": "c3e9442514101580edef9d13e32b24bc960db6eeab2b0ee5c9a21a58f3cf9081",
+      "replay_valid": true,
+      "replay_makespan": 74,
+      "teacher_makespan": 74,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 74
+    },
+    {
+      "group": "7a0762c19df5da91cea4c6a91f207892763939e291cf6f7c8d5aaa323154e5b8",
+      "replay_valid": true,
+      "replay_makespan": 120,
+      "teacher_makespan": 120,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 120
+    },
+    {
+      "group": "cecbfa516c93fc755fb8034806cf582ea757a3f5a571df0f8850659eba30d146",
+      "replay_valid": true,
+      "replay_makespan": 137,
+      "teacher_makespan": 137,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 106,
+      "trajectory_makespan": 137
+    },
+    {
+      "group": "8b1338728581341968d3c1f55ef1536e89f0695ece2c5336fefbd5ca0d275abe",
+      "replay_valid": true,
+      "replay_makespan": 132,
+      "teacher_makespan": 132,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 38,
+      "trajectory_makespan": 132
+    },
+    {
+      "group": "1e8e6b0a72a0c0b3ab3a20e98c6a9bab3bc45ac85f49861507724c1ba770d9e0",
+      "replay_valid": true,
+      "replay_makespan": 88,
+      "teacher_makespan": 88,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 52,
+      "trajectory_makespan": 88
+    },
+    {
+      "group": "cb0353be9470f0f9439d25590ec2f2be7d82e6f8edd42f4ca239278a7140334b",
+      "replay_valid": true,
+      "replay_makespan": 106,
+      "teacher_makespan": 106,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 158,
+      "trajectory_makespan": 106
+    },
+    {
+      "group": "ddabf717528853ca482eb9876678b4158680a97b5010c2b36a61471d59b69145",
+      "replay_valid": true,
+      "replay_makespan": 53,
+      "teacher_makespan": 53,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 53
+    },
+    {
+      "group": "bdc963102ccc452b6fc5f213a12f61ba00f6ea0eddfd1327d668ea2a3f4672c6",
+      "replay_valid": true,
+      "replay_makespan": 72,
+      "teacher_makespan": 72,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 82,
+      "trajectory_makespan": 72
+    },
+    {
+      "group": "a1dc5b5efb41c012e420a047d8f9525c05240e64343a7af9e94aca81e29bb08f",
+      "replay_valid": true,
+      "replay_makespan": 84,
+      "teacher_makespan": 84,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 112,
+      "trajectory_makespan": 84
+    },
+    {
+      "group": "35dc3d197352dd9dcce4068805c336d2411ea4cf49521f0ff4b1ff86e1b44ad5",
+      "replay_valid": true,
+      "replay_makespan": 100,
+      "teacher_makespan": 100,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 100
+    },
+    {
+      "group": "be00af684d4c4b17341d8039eace3138b3437a2217e69ece0576b1edd6800852",
+      "replay_valid": true,
+      "replay_makespan": 129,
+      "teacher_makespan": 129,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 129
+    },
+    {
+      "group": "973acb8ed2a9f644933a3ed67f9a57c53d8034ca6f1165976d81153c443d9cb9",
+      "replay_valid": true,
+      "replay_makespan": 172,
+      "teacher_makespan": 172,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 152,
+      "trajectory_makespan": 172
+    },
+    {
+      "group": "8d3c82a726b7ddb7dfa3f07286cf364f00837d077b652d3d9ecd738deafca982",
+      "replay_valid": true,
+      "replay_makespan": 53,
+      "teacher_makespan": 53,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 21,
+      "trajectory_makespan": 53
+    },
+    {
+      "group": "c6da40e46b2fe8510addee2b5b856ed4f0fc1d062a9cac8da40e2ba3fb78a7f7",
+      "replay_valid": true,
+      "replay_makespan": 132,
+      "teacher_makespan": 132,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 74,
+      "trajectory_makespan": 132
+    },
+    {
+      "group": "98421f608e183b7a64d815b3c286c8759af927823e18db1d3d384d2f75a68bf0",
+      "replay_valid": true,
+      "replay_makespan": 135,
+      "teacher_makespan": 135,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 107,
+      "trajectory_makespan": 135
+    },
+    {
+      "group": "ce91bbce3edcffc6c194dd6d607884c252da796957fe99f696a025ce9a2e4907",
+      "replay_valid": true,
+      "replay_makespan": 51,
+      "teacher_makespan": 51,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 51
+    },
+    {
+      "group": "dd21650886793db9657678e00ed1a50655c303d239933a77f0ea4d4a6cd2e265",
+      "replay_valid": true,
+      "replay_makespan": 79,
+      "teacher_makespan": 79,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 79
+    },
+    {
+      "group": "4db2d89aef23b48b838ea803e611c60fee7ae4a92ee4af89c44d972bfa21f084",
+      "replay_valid": true,
+      "replay_makespan": 118,
+      "teacher_makespan": 118,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 160,
+      "trajectory_makespan": 118
+    },
+    {
+      "group": "3e4ba1a71eee4924597b0737cf2616f7115a882dfc093549e37391ff618dbf05",
+      "replay_valid": true,
+      "replay_makespan": 90,
+      "teacher_makespan": 90,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 90
+    },
+    {
+      "group": "19bca620b419bf13142fe851b98e38e665e8c4410db66769a40e05cc241cdb96",
+      "replay_valid": true,
+      "replay_makespan": 132,
+      "teacher_makespan": 132,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 85,
+      "trajectory_makespan": 132
+    },
+    {
+      "group": "1239a192cb0915fdac2925e9fcc00c3915b400cc43ef50a581372d31ff0575e4",
+      "replay_valid": true,
+      "replay_makespan": 149,
+      "teacher_makespan": 149,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 102,
+      "trajectory_makespan": 149
+    },
+    {
+      "group": "570c5e496fb920b27d64d6f126cbd8186bd16afd11c27b7d8a76c58b0eb713a9",
+      "replay_valid": true,
+      "replay_makespan": 19,
+      "teacher_makespan": 19,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 37,
+      "trajectory_makespan": 19
+    },
+    {
+      "group": "0fb215ce21c2d4d2c471f77c2aa8788445388caca214b6a7e4c629e1d83d9ccb",
+      "replay_valid": true,
+      "replay_makespan": 60,
+      "teacher_makespan": 60,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 60
+    },
+    {
+      "group": "875bf5578fc1c7e1ff16cd5215d6bf0ff3b7c85f67a4bc8991e4cd1afaf2a27c",
+      "replay_valid": true,
+      "replay_makespan": 189,
+      "teacher_makespan": 189,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 142,
+      "trajectory_makespan": 189
+    },
+    {
+      "group": "6e98f4f7fe6b0233aac76309f795fd34dac386530da2acb4ce0c2c62d468f152",
+      "replay_valid": true,
+      "replay_makespan": 52,
+      "teacher_makespan": 52,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 21,
+      "trajectory_makespan": 52
+    },
+    {
+      "group": "94aca84592e1c3cb37e2607aadf10fed6c5d196cf7f9de2f2b06542d3833b85a",
+      "replay_valid": true,
+      "replay_makespan": 55,
+      "teacher_makespan": 55,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 89,
+      "trajectory_makespan": 55
+    },
+    {
+      "group": "737c3e2eb47a2e7d001642b037b547a815b32260fe23361536ce55374dcccde9",
+      "replay_valid": true,
+      "replay_makespan": 111,
+      "teacher_makespan": 111,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 108,
+      "trajectory_makespan": 111
+    },
+    {
+      "group": "c0786ce8d458d4cf1658a6ada337474de0eb8b47792e6ed559ab603444342e1d",
+      "replay_valid": true,
+      "replay_makespan": 119,
+      "teacher_makespan": 119,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 41,
+      "trajectory_makespan": 119
+    },
+    {
+      "group": "5da71ab5e071fe46d33de84caf297ae4defe677c7623d2c8870d0e629f1e81e2",
+      "replay_valid": true,
+      "replay_makespan": 119,
+      "teacher_makespan": 119,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 58,
+      "trajectory_makespan": 119
+    },
+    {
+      "group": "8d7f3b085680926195938595bfc72ff391930cc7c9810eacb986d60106cc2986",
+      "replay_valid": true,
+      "replay_makespan": 195,
+      "teacher_makespan": 195,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 154,
+      "trajectory_makespan": 195
+    },
+    {
+      "group": "d5834282957bd0b72d2997991d12f98b714cf82ff338ef1ec5760ebe3f307348",
+      "replay_valid": true,
+      "replay_makespan": 64,
+      "teacher_makespan": 64,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 64
+    },
+    {
+      "group": "870fba24c0485b6921937c11b578fbd11054bbb772ba4c43f1afffca3c9adbbe",
+      "replay_valid": true,
+      "replay_makespan": 207,
+      "teacher_makespan": 207,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 207
+    },
+    {
+      "group": "3b25117c33d6c513d8d6300e55c401846d7a3f1137d0509861d39680d9f16d08",
+      "replay_valid": true,
+      "replay_makespan": 128,
+      "teacher_makespan": 128,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 111,
+      "trajectory_makespan": 128
+    },
+    {
+      "group": "8193f353806059dd7860a9f7b10c1bfd109076bd626d18199c0aa32144f1bdff",
+      "replay_valid": true,
+      "replay_makespan": 69,
+      "teacher_makespan": 69,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 69
+    },
+    {
+      "group": "6ebb73d285e51d050c044db1b7ad1a9f9e6d90257d5f9a760e5ca1a98bab8675",
+      "replay_valid": true,
+      "replay_makespan": 59,
+      "teacher_makespan": 59,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 59
+    },
+    {
+      "group": "90267520b3449f83016ab5e02ef1eb77931d58bf3458185895aa43c90e37eed9",
+      "replay_valid": true,
+      "replay_makespan": 102,
+      "teacher_makespan": 102,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 149,
+      "trajectory_makespan": 102
+    },
+    {
+      "group": "4edfe203daacd5fa9bcc2b23e70d26a2defbd21ebb1406b5942c08c49169681e",
+      "replay_valid": true,
+      "replay_makespan": 104,
+      "teacher_makespan": 104,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 20,
+      "trajectory_makespan": 104
+    },
+    {
+      "group": "bbcd47439ba3df837a6cf98166ca7bc8ee0792a85f238ac4c67c0e88ea44410a",
+      "replay_valid": true,
+      "replay_makespan": 149,
+      "teacher_makespan": 149,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 80,
+      "trajectory_makespan": 149
+    },
+    {
+      "group": "6b9f7677cc58efc3f0f5afa8f9525887cd206bc564dd7a38af7c36267d30a219",
+      "replay_valid": true,
+      "replay_makespan": 139,
+      "teacher_makespan": 139,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 104,
+      "trajectory_makespan": 139
+    },
+    {
+      "group": "c05ccf12cd569eae76a9710a278907f51e9fc7325d1df48561443f26f4bba67d",
+      "replay_valid": true,
+      "replay_makespan": 77,
+      "teacher_makespan": 77,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 38,
+      "trajectory_makespan": 77
+    },
+    {
+      "group": "d16938ae37a21c1cb9b31911c9dea4b303c7359713b797e19cfc0f15380be086",
+      "replay_valid": true,
+      "replay_makespan": 62,
+      "teacher_makespan": 62,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 52,
+      "trajectory_makespan": 62
+    },
+    {
+      "group": "b71450cdb6df3df47b982af3017ffd8e987d7313d089bdd6dc6125bd67faa695",
+      "replay_valid": true,
+      "replay_makespan": 126,
+      "teacher_makespan": 126,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 156,
+      "trajectory_makespan": 126
+    },
+    {
+      "group": "eccc6f637bc1711809ff8f8571c5db8bcd428b7ac7fd6e21bdac598a3c3915b9",
+      "replay_valid": true,
+      "replay_makespan": 51,
+      "teacher_makespan": 51,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 51
+    },
+    {
+      "group": "dbf26f7255b2c5041534253316594b46ac19662d218593020678fb38962a7817",
+      "replay_valid": true,
+      "replay_makespan": 85,
+      "teacher_makespan": 85,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 83,
+      "trajectory_makespan": 85
+    },
+    {
+      "group": "a24b3639049f4b7bb7137555f109570f6d646f2593846ccf835987ef51509b8e",
+      "replay_valid": true,
+      "replay_makespan": 88,
+      "teacher_makespan": 88,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 112,
+      "trajectory_makespan": 88
+    },
+    {
+      "group": "0074f92d963e697b5730646319fffa2bea93cc1a014acd312e1ab91bbd240b39",
+      "replay_valid": true,
+      "replay_makespan": 130,
+      "teacher_makespan": 130,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 36,
+      "trajectory_makespan": 130
+    },
+    {
+      "group": "9d0d8655ccf6c0e1041caaf0c188b12a8f2b8769e84abf7706a836986c7eeebe",
+      "replay_valid": true,
+      "replay_makespan": 102,
+      "teacher_makespan": 102,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 102
+    },
+    {
+      "group": "eb71423ea4581a321e3a1e7436dea818c2331c1de4f6c51ca751772c70861472",
+      "replay_valid": true,
+      "replay_makespan": 155,
+      "teacher_makespan": 155,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 149,
+      "trajectory_makespan": 155
+    },
+    {
+      "group": "951207fefb3872735bd14780e8800ce3f71e27d42cda614b62d8b221e7288dfe",
+      "replay_valid": true,
+      "replay_makespan": 66,
+      "teacher_makespan": 66,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 66
+    },
+    {
+      "group": "8017337c8824fad75aaa4c11d2f63a7c68a0d53f8cfc80ff71e637ced7ebd560",
+      "replay_valid": true,
+      "replay_makespan": 34,
+      "teacher_makespan": 34,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 84,
+      "trajectory_makespan": 34
+    },
+    {
+      "group": "1ebbd486af4a8becc689ea99169445224d0c1d9875247a53c29c5ee73cc85ea7",
+      "replay_valid": true,
+      "replay_makespan": 115,
+      "teacher_makespan": 115,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 101,
+      "trajectory_makespan": 115
+    },
+    {
+      "group": "2f3bc8b44837f3188cadbcfb0f90a609e1b7156d0459c1af574e3dbdde6a7822",
+      "replay_valid": true,
+      "replay_makespan": 51,
+      "teacher_makespan": 51,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 41,
+      "trajectory_makespan": 51
+    },
+    {
+      "group": "7efc3c58e0d7edb5c14bd363e1d01dde8e5018d89a6747da2fd761e18f6b1137",
+      "replay_valid": true,
+      "replay_makespan": 60,
+      "teacher_makespan": 60,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 60
+    },
+    {
+      "group": "c903ea90caba344e95e7c3a595d30de013c058d9e4112e8ba56016647bed5a4e",
+      "replay_valid": true,
+      "replay_makespan": 69,
+      "teacher_makespan": 69,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 144,
+      "trajectory_makespan": 69
+    },
+    {
+      "group": "a8fd9a5364fe568577664d14f807ebb729c0d449c66967150a59c8a4010eb143",
+      "replay_valid": true,
+      "replay_makespan": 79,
+      "teacher_makespan": 79,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 79
+    },
+    {
+      "group": "0cd2548034a9d684bfc4d1271dd11738bf51260adb48e118cb702a6b0abbd21a",
+      "replay_valid": true,
+      "replay_makespan": 138,
+      "teacher_makespan": 138,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 79,
+      "trajectory_makespan": 138
+    },
+    {
+      "group": "a2c9163a0f5427c7954c12176c349359f5e1dcb35e8b450bdf54bbe1ed248d05",
+      "replay_valid": true,
+      "replay_makespan": 138,
+      "teacher_makespan": 138,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 103,
+      "trajectory_makespan": 138
+    },
+    {
+      "group": "aa8ddeb00162d440ec39bdcdcd3d9493e6b6238b3bcd04de5c66b6fe6950ddb7",
+      "replay_valid": true,
+      "replay_makespan": 54,
+      "teacher_makespan": 54,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 41,
+      "trajectory_makespan": 54
+    },
+    {
+      "group": "9a8bb79687469e279cc3e23f196cdec1dc75ffc3b2fab4a5dce3739cdb84e950",
+      "replay_valid": true,
+      "replay_makespan": 61,
+      "teacher_makespan": 61,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 49,
+      "trajectory_makespan": 61
+    },
+    {
+      "group": "a6e88f6ce449703b2be79647306272333e7ba197520e469e995e1a0ef3c0a052",
+      "replay_valid": true,
+      "replay_makespan": 85,
+      "teacher_makespan": 85,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 158,
+      "trajectory_makespan": 85
+    },
+    {
+      "group": "7c42d16a6bc677eec83bc75c0097bcfa955fe09e8994f0f4b375ccc27456f756",
+      "replay_valid": true,
+      "replay_makespan": 43,
+      "teacher_makespan": 43,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 43
+    },
+    {
+      "group": "a988e29c238096d17f531844c785b9b1296a7e6c5b473ba6ac584449bb712d81",
+      "replay_valid": true,
+      "replay_makespan": 73,
+      "teacher_makespan": 73,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 90,
+      "trajectory_makespan": 73
+    },
+    {
+      "group": "2d821c59f5aee19f08547f0a4525602404e6264c3fe62fb38cc74bfacc3e3d2b",
+      "replay_valid": true,
+      "replay_makespan": 105,
+      "teacher_makespan": 105,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 108,
+      "trajectory_makespan": 105
+    },
+    {
+      "group": "0c224bd040e5c462b7aae0ca34ad10dac2206c2088b5134fa2fe7a411c1c0be6",
+      "replay_valid": true,
+      "replay_makespan": 105,
+      "teacher_makespan": 105,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 39,
+      "trajectory_makespan": 105
+    },
+    {
+      "group": "c5d38a15231bc9904cfaeb6294498d31c337618f8a2f3541eda0ce3c95355e99",
+      "replay_valid": true,
+      "replay_makespan": 108,
+      "teacher_makespan": 108,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 46,
+      "trajectory_makespan": 108
+    },
+    {
+      "group": "448bcefe8dd43d80979af9e8ce8b939d895f868c75d288dd8e418745a718de11",
+      "replay_valid": true,
+      "replay_makespan": 155,
+      "teacher_makespan": 155,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 147,
+      "trajectory_makespan": 155
+    },
+    {
+      "group": "979cb08c05437694f421b0ecfebf7ef466cd9fb56a9e3b41178175b8ada0fdaf",
+      "replay_valid": true,
+      "replay_makespan": 69,
+      "teacher_makespan": 69,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 69
+    },
+    {
+      "group": "d335e3e3ab2284c275b14d2121dc47430ef0a60800b4197082b05f4be3691801",
+      "replay_valid": true,
+      "replay_makespan": 150,
+      "teacher_makespan": 150,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 81,
+      "trajectory_makespan": 150
+    },
+    {
+      "group": "7623c83f7094a5a283d8f41bb09d6ae528022cb54f76829f682875339e70471c",
+      "replay_valid": true,
+      "replay_makespan": 66,
+      "teacher_makespan": 66,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 111,
+      "trajectory_makespan": 66
+    },
+    {
+      "group": "e96033008c51345ef25551ed9cd7f4c4084f4feba2b2bbe80fb9fca574003285",
+      "replay_valid": true,
+      "replay_makespan": 70,
+      "teacher_makespan": 70,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 37,
+      "trajectory_makespan": 70
+    },
+    {
+      "group": "bacb2e8fb511d91cbd73879c4bd06d718b28c67fb239a2661b72ebf4fc0ced9a",
+      "replay_valid": true,
+      "replay_makespan": 69,
+      "teacher_makespan": 69,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 69
+    },
+    {
+      "group": "ae228c33ded72171853d6ecee295539e1cf78befe98da90f7abfee3431f460c9",
+      "replay_valid": true,
+      "replay_makespan": 78,
+      "teacher_makespan": 78,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 163,
+      "trajectory_makespan": 78
+    },
+    {
+      "group": "431222532eeae55d60bba93cc012ddeb5d70a85645fcfae9d3cc95fbb4551648",
+      "replay_valid": true,
+      "replay_makespan": 86,
+      "teacher_makespan": 86,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 86
+    },
+    {
+      "group": "d49b76932177b673a2ae870b7d38913d67b212fc747666c0724b0e906880309e",
+      "replay_valid": true,
+      "replay_makespan": 131,
+      "teacher_makespan": 131,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 82,
+      "trajectory_makespan": 131
+    },
+    {
+      "group": "0783d93bb2cfafc745611c6d117ec9fe2e545c1e45501926fdda6209521ecd08",
+      "replay_valid": true,
+      "replay_makespan": 144,
+      "teacher_makespan": 144,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 110,
+      "trajectory_makespan": 144
+    },
+    {
+      "group": "a314b0b6945b83648fdee2220b29482dea9673446f19c064af6e18c9ca33aee8",
+      "replay_valid": true,
+      "replay_makespan": 119,
+      "teacher_makespan": 119,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 119
+    },
+    {
+      "group": "1ea854349b6b67eafdfe946271ef68b1f46865937e2ebf8e32b752c5f50ddab0",
+      "replay_valid": true,
+      "replay_makespan": 101,
+      "teacher_makespan": 101,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 54,
+      "trajectory_makespan": 101
+    },
+    {
+      "group": "07e2f9a7068ffa1206731c510c97b3b4ffaab0b68d0b9031d00d9fa446909343",
+      "replay_valid": true,
+      "replay_makespan": 136,
+      "teacher_makespan": 136,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 129,
+      "trajectory_makespan": 136
+    },
+    {
+      "group": "f53c7e6d4bd4be9255330dc90d3ed6c925b71883f0aab737ab143bbe3008e3e7",
+      "replay_valid": true,
+      "replay_makespan": 64,
+      "teacher_makespan": 64,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 21,
+      "trajectory_makespan": 64
+    },
+    {
+      "group": "e88e5851bbb5944e7a644d391d8484a0669bae6918985b8f0b31af8f1fcf68b3",
+      "replay_valid": true,
+      "replay_makespan": 74,
+      "teacher_makespan": 74,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 89,
+      "trajectory_makespan": 74
+    },
+    {
+      "group": "9e50f0410108b9f29c7507e6384959f09f6d1a1447301049646c2584d0fbdc6a",
+      "replay_valid": true,
+      "replay_makespan": 75,
+      "teacher_makespan": 75,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 107,
+      "trajectory_makespan": 75
+    },
+    {
+      "group": "b970209fa4a8e86c239d44ca6d7f3d50ef1373bdcd8cd6d3013f4dc210c466f1",
+      "replay_valid": true,
+      "replay_makespan": 120,
+      "teacher_makespan": 120,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 36,
+      "trajectory_makespan": 120
+    },
+    {
+      "group": "894c326beed198ca9f96221dd398071bdf9e5bcffb8228d4a5f7c75207a87f16",
+      "replay_valid": true,
+      "replay_makespan": 111,
+      "teacher_makespan": 111,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 111
+    },
+    {
+      "group": "247734077c0f0fcec5292b7d69353c6dc6fdfd2431193c707a3e0a8cd2f1aefd",
+      "replay_valid": true,
+      "replay_makespan": 170,
+      "teacher_makespan": 170,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 150,
+      "trajectory_makespan": 170
+    },
+    {
+      "group": "fbd3c0e2854236b235c6ac2737b92172b601a1ed3f8f0769343a8facfb6c8436",
+      "replay_valid": true,
+      "replay_makespan": 67,
+      "teacher_makespan": 67,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 67
+    },
+    {
+      "group": "5b3eddee58ae4d8b3233e2132e1137e188f21069a278b2bc2fe2bc5d93395c94",
+      "replay_valid": true,
+      "replay_makespan": 92,
+      "teacher_makespan": 92,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 76,
+      "trajectory_makespan": 92
+    },
+    {
+      "group": "00e4852f73fe3cfb4e41265a06a7bd7d526ec737fc4dd4d262fd4d0172f80bab",
+      "replay_valid": true,
+      "replay_makespan": 115,
+      "teacher_makespan": 115,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 110,
+      "trajectory_makespan": 115
+    },
+    {
+      "group": "4c54bf1289b4301366d2d3ad634560e6b1ba5bf0b478ce8e2bef43d53ccbfdf7",
+      "replay_valid": true,
+      "replay_makespan": 75,
+      "teacher_makespan": 75,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 75
+    },
+    {
+      "group": "bee1a3c6251f8e3dee0965bb2fe9a1316b490096b21f143babff7e5229dc71e4",
+      "replay_valid": true,
+      "replay_makespan": 52,
+      "teacher_makespan": 52,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 55,
+      "trajectory_makespan": 52
+    },
+    {
+      "group": "87d9727b98e193a8cee5346f285d1fe8dbb5c3b3aeefca2e8310c05eb95cf027",
+      "replay_valid": true,
+      "replay_makespan": 82,
+      "teacher_makespan": 82,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 152,
+      "trajectory_makespan": 82
+    },
+    {
+      "group": "dfb841afb4ffe74e1b0414f7a8978bfe313f9983d1b28f4cd1ba1f6a1e023df1",
+      "replay_valid": true,
+      "replay_makespan": 68,
+      "teacher_makespan": 68,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 68
+    },
+    {
+      "group": "c2d3ed8524789d87a9cc57e8b92a3c35e25a0a16c881867455a4818a0a31d783",
+      "replay_valid": true,
+      "replay_makespan": 150,
+      "teacher_makespan": 150,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 87,
+      "trajectory_makespan": 150
+    },
+    {
+      "group": "84de1080fea4fe228f946026f1c6dc18575db55fc451400191ec7b0b4a9fae85",
+      "replay_valid": true,
+      "replay_makespan": 131,
+      "teacher_makespan": 131,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 102,
+      "trajectory_makespan": 131
+    },
+    {
+      "group": "3b40692062df1f728caf9b484eab86b9281f664101cfda682e5242eaee78bd1a",
+      "replay_valid": true,
+      "replay_makespan": 65,
+      "teacher_makespan": 65,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 36,
+      "trajectory_makespan": 65
+    },
+    {
+      "group": "1ec0cef3cf8b611aa4ca710a8a794b595811f57afae421b810c83f0ddc07a09c",
+      "replay_valid": true,
+      "replay_makespan": 83,
+      "teacher_makespan": 83,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 49,
+      "trajectory_makespan": 83
+    },
+    {
+      "group": "4ca077b8dc9393099931eb48f0cb25c4a35fbc8921d66330d027e63d652cb851",
+      "replay_valid": true,
+      "replay_makespan": 168,
+      "teacher_makespan": 168,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 140,
+      "trajectory_makespan": 168
+    },
+    {
+      "group": "2cef74989124abc91afb0e704cbac4355bb1a21f4922962245e726a696ab6cb2",
+      "replay_valid": true,
+      "replay_makespan": 62,
+      "teacher_makespan": 62,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 62
+    },
+    {
+      "group": "c63f81c74f56616e866b8ce165c8d248293dd34bdc76f931fb36541ea0b90f68",
+      "replay_valid": true,
+      "replay_makespan": 71,
+      "teacher_makespan": 71,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 83,
+      "trajectory_makespan": 71
+    },
+    {
+      "group": "6d9c0a93c2e33ec733c36d982b97e8d01b6c47abf3a8024dff04b1008eeea047",
+      "replay_valid": true,
+      "replay_makespan": 71,
+      "teacher_makespan": 71,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 112,
+      "trajectory_makespan": 71
+    },
+    {
+      "group": "de7916385ae99fe81824aab991bbc5dd36e37b5c0dd65657f273c3b5282fed6a",
+      "replay_valid": true,
+      "replay_makespan": 102,
+      "teacher_makespan": 102,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 102
+    },
+    {
+      "group": "d33725206afac9168925f05ee41d25f2de96c6b978dd2f246dc428c0f4412e05",
+      "replay_valid": true,
+      "replay_makespan": 106,
+      "teacher_makespan": 106,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 106
+    },
+    {
+      "group": "a2e5f58452ddc40135ace17fa954f6e2f02a07e00d646bb0c899fe99c2fe5830",
+      "replay_valid": true,
+      "replay_makespan": 159,
+      "teacher_makespan": 159,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 149,
+      "trajectory_makespan": 159
+    },
+    {
+      "group": "3384bd5e1f87cc13f8bb4e454831e61987c76fda3d3afc9d426f7800500c95d3",
+      "replay_valid": true,
+      "replay_makespan": 60,
+      "teacher_makespan": 60,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 60
+    },
+    {
+      "group": "0ad97fd6669325c99f2c1a985e05c39f6fb31fe2f24dbe4093ccb0ba63d12ead",
+      "replay_valid": true,
+      "replay_makespan": 90,
+      "teacher_makespan": 90,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 87,
+      "trajectory_makespan": 90
+    },
+    {
+      "group": "691924edecc9f5cd56a3548a72e138cd193265223a7452cb85436b18dbb960f1",
+      "replay_valid": true,
+      "replay_makespan": 135,
+      "teacher_makespan": 135,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 98,
+      "trajectory_makespan": 135
+    },
+    {
+      "group": "fcf672cf9ab42ee5c38f004c693e380ee69570cf3884b537bfa6b29bb6975187",
+      "replay_valid": true,
+      "replay_makespan": 64,
+      "teacher_makespan": 64,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 64
+    },
+    {
+      "group": "f5eb5a9a7948da378e8aa42104771035693f62dfad71df0fbcf9c508fb4baadb",
+      "replay_valid": true,
+      "replay_makespan": 86,
+      "teacher_makespan": 86,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 49,
+      "trajectory_makespan": 86
+    },
+    {
+      "group": "46afe2257d44c7804ba5829a38abf21c8a4eaacf51c4d4e97781d6b28ab54707",
+      "replay_valid": true,
+      "replay_makespan": 95,
+      "teacher_makespan": 95,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 157,
+      "trajectory_makespan": 95
+    },
+    {
+      "group": "68e58cf181495490d103f929281d6aaa3ae23788492a06732d5771a6859a4269",
+      "replay_valid": true,
+      "replay_makespan": 94,
+      "teacher_makespan": 94,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 94
+    },
+    {
+      "group": "1345ba47a7c52f60227bc8047709d738a41d648e9ec89f25e97590c1d41876f5",
+      "replay_valid": true,
+      "replay_makespan": 130,
+      "teacher_makespan": 130,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 83,
+      "trajectory_makespan": 130
+    },
+    {
+      "group": "ead3f48581be1780ec0e4804ab66fd2f9e867e45380cd2965d4392ea326f5535",
+      "replay_valid": true,
+      "replay_makespan": 143,
+      "teacher_makespan": 143,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 111,
+      "trajectory_makespan": 143
+    },
+    {
+      "group": "69f67c7b26855e2be4fd6fd3435c8230970d30fe30dc5db466310772a0e94330",
+      "replay_valid": true,
+      "replay_makespan": 94,
+      "teacher_makespan": 94,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 39,
+      "trajectory_makespan": 94
+    },
+    {
+      "group": "58ab1d74a43dc1d615d0ebf743058cd74f5b8b6106e9162d5a721118c7d30cfd",
+      "replay_valid": true,
+      "replay_makespan": 120,
+      "teacher_makespan": 120,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 58,
+      "trajectory_makespan": 120
+    },
+    {
+      "group": "3037620cd1a345e1b0018eeae2912faf656a320e1b49400ab935ca3dc233daa5",
+      "replay_valid": true,
+      "replay_makespan": 165,
+      "teacher_makespan": 165,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 149,
+      "trajectory_makespan": 165
+    },
+    {
+      "group": "15538be4a5e287aeaaffc047d816827e7f36e608213bc4c27849bd50b9dea8a0",
+      "replay_valid": true,
+      "replay_makespan": 48,
+      "teacher_makespan": 48,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 48
+    },
+    {
+      "group": "03eaabdaaf69b00d06590dfa5cf99f024e62f230ec853ff882637aec9c7aba4d",
+      "replay_valid": true,
+      "replay_makespan": 83,
+      "teacher_makespan": 83,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 81,
+      "trajectory_makespan": 83
+    },
+    {
+      "group": "7f169ffd5580bda0a9975b27edd855ac65f8fef5c2d9cb8bea783188851a9efd",
+      "replay_valid": true,
+      "replay_makespan": 83,
+      "teacher_makespan": 83,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 103,
+      "trajectory_makespan": 83
+    },
+    {
+      "group": "64b0fe5f5bff0230581c7ca06f004db705d227e2a51c36ec154f73e691991abf",
+      "replay_valid": true,
+      "replay_makespan": 120,
+      "teacher_makespan": 120,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 120
+    },
+    {
+      "group": "3c92ab49c351ca014ef7a9243bb7fb1ba7830a5df832e5cc1f90aff7ade846a2",
+      "replay_valid": true,
+      "replay_makespan": 121,
+      "teacher_makespan": 121,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 48,
+      "trajectory_makespan": 121
+    },
+    {
+      "group": "7b9d2f920fdd7dcfd07bf098778338815370922cb404be30b46c09a65616a4ed",
+      "replay_valid": true,
+      "replay_makespan": 166,
+      "teacher_makespan": 166,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 160,
+      "trajectory_makespan": 166
+    },
+    {
+      "group": "1c517562668c07d16147a70b483b15ef778f001545d0e356168aa0101b09c22d",
+      "replay_valid": true,
+      "replay_makespan": 56,
+      "teacher_makespan": 56,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 56
+    },
+    {
+      "group": "d12b0bd6135cb7b4c845b26a9b7d9893a31adc4a44e6d267cf3830061b647dbe",
+      "replay_valid": true,
+      "replay_makespan": 80,
+      "teacher_makespan": 80,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 82,
+      "trajectory_makespan": 80
+    },
+    {
+      "group": "0b4dd5d6e9c0e3d32256b7abb765b748ee59a5840f0bf3507ba15d20f673da37",
+      "replay_valid": true,
+      "replay_makespan": 125,
+      "teacher_makespan": 125,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 105,
+      "trajectory_makespan": 125
+    },
+    {
+      "group": "96180a2d210a2ac67758a3f3c5fd11cf625f0c60aac992366322ff5f0fd3006e",
+      "replay_valid": true,
+      "replay_makespan": 45,
+      "teacher_makespan": 45,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 40,
+      "trajectory_makespan": 45
+    },
+    {
+      "group": "04fd1e45c8c8c60ae64479d694a85108a772a3776f4101324d213c203c657cef",
+      "replay_valid": true,
+      "replay_makespan": 87,
+      "teacher_makespan": 87,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 57,
+      "trajectory_makespan": 87
+    },
+    {
+      "group": "c00deebcb0802885f6c49b3ce7f7e7f69ae97d500617cb7657f4ce88bba582f1",
+      "replay_valid": true,
+      "replay_makespan": 106,
+      "teacher_makespan": 106,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 146,
+      "trajectory_makespan": 106
+    },
+    {
+      "group": "08cefc58adbce58a2f84e8367619c2e0bacc086c0e0c2633e3ea9a1f6a59aa28",
+      "replay_valid": true,
+      "replay_makespan": 89,
+      "teacher_makespan": 89,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 89
+    },
+    {
+      "group": "cbc21110c97d3755e2e33d409ca4b3237d80186ab617e95d45d2540ace7c7980",
+      "replay_valid": true,
+      "replay_makespan": 144,
+      "teacher_makespan": 144,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 77,
+      "trajectory_makespan": 144
+    },
+    {
+      "group": "bc4db7f5dd6fb23b137517403bd4cb660971970003ec3e650f173d7cab608d27",
+      "replay_valid": true,
+      "replay_makespan": 132,
+      "teacher_makespan": 132,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 105,
+      "trajectory_makespan": 132
+    },
+    {
+      "group": "5fc463fb6d6341629f7940b9b548abb9004e0ff8e42676a4d104b8222938127a",
+      "replay_valid": true,
+      "replay_makespan": 97,
+      "teacher_makespan": 97,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 35,
+      "trajectory_makespan": 97
+    },
+    {
+      "group": "f96b95174ecc70aa008dc5dc41a40785c5f4cc727f5bf6ca9642eb9e4397ca50",
+      "replay_valid": true,
+      "replay_makespan": 154,
+      "teacher_makespan": 154,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 55,
+      "trajectory_makespan": 154
+    },
+    {
+      "group": "bae5fa74832a76f37e55c49131e7b8c2126e7ff0806756e4f73ea6d66d47b994",
+      "replay_valid": true,
+      "replay_makespan": 139,
+      "teacher_makespan": 139,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 158,
+      "trajectory_makespan": 139
+    },
+    {
+      "group": "e5c5a511c9e344c80bf1e8493a8c493ba3878d11cdda0016195bb4de4472fa00",
+      "replay_valid": true,
+      "replay_makespan": 44,
+      "teacher_makespan": 44,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 44
+    },
+    {
+      "group": "ab687ac315e109f8ae5434c1512d9f8665fac7ac05d1e20575128d7a597c3d7d",
+      "replay_valid": true,
+      "replay_makespan": 63,
+      "teacher_makespan": 63,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 85,
+      "trajectory_makespan": 63
+    },
+    {
+      "group": "72b65b2471e1a70ed7f540b1ffefa54aaea8c2b5c8e541cb872954a7cc27b398",
+      "replay_valid": true,
+      "replay_makespan": 100,
+      "teacher_makespan": 100,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 108,
+      "trajectory_makespan": 100
+    },
+    {
+      "group": "dda3fb45e21269fc15a104f88e8d24c706d5d7c1b0cf8974d2587a7c7f86b414",
+      "replay_valid": true,
+      "replay_makespan": 104,
+      "teacher_makespan": 104,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 38,
+      "trajectory_makespan": 104
+    },
+    {
+      "group": "fa5b3c74b64602e2803739e63f986282c793420eb1d7ebd9690fbee879b407ab",
+      "replay_valid": true,
+      "replay_makespan": 118,
+      "teacher_makespan": 118,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 54,
+      "trajectory_makespan": 118
+    },
+    {
+      "group": "a24e7687174ea24dfc8310b9bdedd22f6658360b3205129ae7e0c403ebc86c3a",
+      "replay_valid": true,
+      "replay_makespan": 152,
+      "teacher_makespan": 152,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 145,
+      "trajectory_makespan": 152
+    },
+    {
+      "group": "7e3437cc09667e00020feb840289279408082f34a8a21f1b61c55b3001ed8347",
+      "replay_valid": true,
+      "replay_makespan": 44,
+      "teacher_makespan": 44,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 24,
+      "trajectory_makespan": 44
+    },
+    {
+      "group": "07246aa2bb2203391f01d4223c7d3f71a5122ee27e8d6d434222f1eed2baf9ca",
+      "replay_valid": true,
+      "replay_makespan": 136,
+      "teacher_makespan": 136,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 88,
+      "trajectory_makespan": 136
+    },
+    {
+      "group": "7fd0371cefb68de65cb5600e2c97e8c1983366cee46a2b73bed09bc49562e36a",
+      "replay_valid": true,
+      "replay_makespan": 118,
+      "teacher_makespan": 118,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 114,
+      "trajectory_makespan": 118
+    },
+    {
+      "group": "bd863e8a57d5f37287110281f683c00a196c475b513c6ec50e4b2bbe78a45ef7",
+      "replay_valid": true,
+      "replay_makespan": 50,
+      "teacher_makespan": 50,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 50
+    },
+    {
+      "group": "a9f3175823324f35d684bda8fdadca13ae326e3b8246e3d4426a4e713a943b90",
+      "replay_valid": true,
+      "replay_makespan": 67,
+      "teacher_makespan": 67,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 56,
+      "trajectory_makespan": 67
+    },
+    {
+      "group": "51b5ddf631edbc3bd4d24fefd0b2539f68ea1673e9dae57ab655927c3d9c13ea",
+      "replay_valid": true,
+      "replay_makespan": 94,
+      "teacher_makespan": 94,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 142,
+      "trajectory_makespan": 94
+    },
+    {
+      "group": "af288f63ab5549611d61d4b49b9d6243ccfa2cdcc914564982d9b8dae82e20ab",
+      "replay_valid": true,
+      "replay_makespan": 74,
+      "teacher_makespan": 74,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 23,
+      "trajectory_makespan": 74
+    },
+    {
+      "group": "78fcb80111aa1d2fdeca7466ff499044978948c076469c47fd750abbf42f841f",
+      "replay_valid": true,
+      "replay_makespan": 154,
+      "teacher_makespan": 154,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 85,
+      "trajectory_makespan": 154
+    },
+    {
+      "group": "6c47ab9d8d6fcd71fa07ec49b5720e6e6a1cf3e908e5a69a62bd5cac9363f8ac",
+      "replay_valid": true,
+      "replay_makespan": 132,
+      "teacher_makespan": 132,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 102,
+      "trajectory_makespan": 132
+    },
+    {
+      "group": "64ee6d3d220e6e7e9895a372f3bc35be3b7509ea4a209d1b5737e5b6addc38fc",
+      "replay_valid": true,
+      "replay_makespan": 61,
+      "teacher_makespan": 61,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 41,
+      "trajectory_makespan": 61
+    },
+    {
+      "group": "a2b6bab21f16c337006941baca5ef5f8acba671d88c1c5e198e5fadff47514bc",
+      "replay_valid": true,
+      "replay_makespan": 97,
+      "teacher_makespan": 97,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 53,
+      "trajectory_makespan": 97
+    },
+    {
+      "group": "7ac0c8b16841064b71b3ad22f2c838862458edce9b7fcffc34d5f4ccf404bc28",
+      "replay_valid": true,
+      "replay_makespan": 174,
+      "teacher_makespan": 174,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 146,
+      "trajectory_makespan": 174
+    },
+    {
+      "group": "922d082f22b1f6cc3b46a2634a87898995cdb4b11e957368b3a4ce56528341db",
+      "replay_valid": true,
+      "replay_makespan": 47,
+      "teacher_makespan": 47,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 22,
+      "trajectory_makespan": 47
+    },
+    {
+      "group": "c6af82e9e08e95fd3005967212b7a1492121a3ad2a1fd513455c3edcf2915aa1",
+      "replay_valid": true,
+      "replay_makespan": 73,
+      "teacher_makespan": 73,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 87,
+      "trajectory_makespan": 73
+    },
+    {
+      "group": "64a611d6175310a2ccd685704e6f361a84e8d48f5608fa402f2e1463e2ce6e66",
+      "replay_valid": true,
+      "replay_makespan": 86,
+      "teacher_makespan": 86,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 111,
+      "trajectory_makespan": 86
+    },
+    {
+      "group": "f0839b4c973f019ec5ffc04013b873e6037e5884b6441fc0560478212d28b563",
+      "replay_valid": true,
+      "replay_makespan": 105,
+      "teacher_makespan": 105,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 42,
+      "trajectory_makespan": 105
+    },
+    {
+      "group": "a08db0d1e8938feaf7e5dd37aa9d7ef641c68af68ab18071853e756ac325d09f",
+      "replay_valid": true,
+      "replay_makespan": 98,
+      "teacher_makespan": 98,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 57,
+      "trajectory_makespan": 98
+    },
+    {
+      "group": "8d2a6221b78a9b77fc3d15fc614e43bcf3ab9f0132b4f035b71aedc34c9da7a7",
+      "replay_valid": true,
+      "replay_makespan": 157,
+      "teacher_makespan": 157,
+      "teacher_status": "OPTIMAL",
+      "label_rows": 158,
+      "trajectory_makespan": 157
+    }
+  ],
+  "teacher_generation_and_label_seconds": 4.538281799999936
+}

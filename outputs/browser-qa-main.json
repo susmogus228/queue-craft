@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-28",
+  "browser": "Installed Microsoft Edge, isolated headless context",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Desktop viewport and no body overflow",
+      "passed": true,
+      "detail": {
+        "width": 1536,
+        "height": 1024,
+        "scroll": 1536
+      }
+    },
+    {
+      "name": "Three nonduplicated scenarios",
+      "passed": true
+    },
+    {
+      "name": "All five actual API schedules valid",
+      "passed": true
+    },
+    {
+      "name": "Small example proven reference 11",
+      "passed": true
+    },
+    {
+      "name": "Completed export enabled",
+      "passed": true
+    },
+    {
+      "name": "CP reference has no fake dispatch replay",
+      "passed": true
+    },
+    {
+      "name": "Replay previous step",
+      "passed": true
+    },
+    {
+      "name": "Gantt operation keyboard selection",
+      "passed": true
+    },
+    {
+      "name": "Export contains matching original instance",
+      "passed": true
+    },
+    {
+      "name": "Edited result is marked stale",
+      "passed": true
+    },
+    {
+      "name": "Edit triggers real recomputation",
+      "passed": true
+    },
+    {
+      "name": "Recomputation is not cached old schedule",
+      "passed": true
+    },
+    {
+      "name": "Own exported report roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Malformed JSON shows actionable error",
+      "passed": true
+    },
+    {
+      "name": "Ambiguous JSON rejected in UI",
+      "passed": true
+    },
+    {
+      "name": "Oversized file rejected without upload",
+      "passed": true
+    },
+    {
+      "name": "Actual model evidence rendered",
+      "passed": true
+    },
+    {
+      "name": "Intervals and strong comparisons visible",
+      "passed": true
+    },
+    {
+      "name": "UI cancellation completes with actual bounded service",
+      "passed": true
+    },
+    {
+      "name": "Mobile 390px has no body overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "height": 844,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "Mobile comparison and export accessible",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion disables automatic replay",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion retains manual stepping",
+      "passed": true
+    },
+    {
+      "name": "Narrow 320px no body overflow",
+      "passed": true
+    },
+    {
+      "name": "Tablet 1024px no body overflow",
+      "passed": true
+    },
+    {
+      "name": "Unavailable API state has retry",
+      "passed": true
+    },
+    {
+      "name": "API retry recovers without reload",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}
+

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "path": "docs/design/variant-1-workshop.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1309947,
+      "sha256": "962a1882a3249a4cf0edd7ac5aca01f641099d1aaf800f61e578199fce05ac09",
+      "kind": "AI-generated static UI concept",
+      "performance_results": false
+    },
+    {
+      "path": "docs/design/variant-2-control-room.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1635923,
+      "sha256": "f2ce0c1d7c5624fa201617487cf73e9f6a79a641bbe0fedc0c887638e13d99c8",
+      "kind": "AI-generated static UI concept",
+      "performance_results": false
+    },
+    {
+      "path": "docs/design/variant-3-planning-desk.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1424468,
+      "sha256": "d25fa4e824baeec42e5b6df7854bbc6d04e841ba03adf775c95c757cec78543e",
+      "kind": "AI-generated static UI concept",
+      "performance_results": false
+    }
+  ]
+}

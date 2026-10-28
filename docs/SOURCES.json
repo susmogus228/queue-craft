@@ -1,0 +1,61 @@
+{
+  "research_date": "2026-10-27",
+  "sources": [
+    {
+      "title": "frePPLe features",
+      "url": "https://frepple.com/docs/current/features.html",
+      "accessed_date": "2026-10-27",
+      "scope": "official product documentation; narrower QueueCraft scope, existing Gantt and scenario capabilities"
+    },
+    {
+      "title": "OR-Tools job shop",
+      "url": "https://developers.google.com/optimization/scheduling/job_shop",
+      "accessed_date": "2026-10-27",
+      "scope": "official scheduling constraints and illustrative input"
+    },
+    {
+      "title": "JobShopLib",
+      "url": "https://github.com/Pabloo22/job_shop_lib",
+      "accessed_date": "2026-10-27",
+      "scope": "author repository README; dispatch, learning, solver and visualization features"
+    },
+    {
+      "title": "Learning to Dispatch",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/11958dfee29b6709f48a9ba0387a2431-Abstract.html",
+      "accessed_date": "2026-10-27",
+      "scope": "primary research abstract"
+    },
+    {
+      "title": "Learning to Dispatch paper",
+      "url": "https://proceedings.neurips.cc/paper/2020/file/11958dfee29b6709f48a9ba0387a2431-Paper.pdf",
+      "accessed_date": "2026-10-27",
+      "scope": "primary paper excerpts including experimental/training setup"
+    },
+    {
+      "title": "OR-Library job shop",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/jobshopinfo.html",
+      "accessed_date": "2026-10-27",
+      "scope": "publisher benchmark description"
+    },
+    {
+      "title": "CP-SAT status",
+      "url": "https://developers.google.com/optimization/cp/cp_solver",
+      "accessed_date": "2026-10-27",
+      "scope": "primary documentation checked by independent Model QA reviewer"
+    },
+    {
+      "title": "JobShopLib dispatcher",
+      "url": "https://job-shop-lib.readthedocs.io/en/stable/api/job_shop_lib.dispatching.html",
+      "accessed_date": "2026-10-27",
+      "scope": "action filtering/schedule semantics checked by independent Model QA reviewer"
+    },
+    {
+      "title": "JobShopLib rules",
+      "url": "https://job-shop-lib.readthedocs.io/en/stable/api/job_shop_lib.dispatching.rules.html",
+      "accessed_date": "2026-10-27",
+      "scope": "baseline rules checked by independent Model QA reviewer"
+    }
+  ],
+  "downloads_of_code_models_or_datasets": false
+}
+

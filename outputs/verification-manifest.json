@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "ui_variant": 2,
+  "python": "3.12.14",
+  "packages": {
+    "fastapi": "0.162.0",
+    "pydantic": "2.14.1",
+    "uvicorn": "0.54.0",
+    "scikit-learn": "1.9.1",
+    "ortools": "9.15.6755",
+    "numpy": "2.5.4",
+    "pytest": "9.2.0",
+    "httpx": "0.28.1"
+  },
+  "python_tests": 64,
+  "frontend_tests": 12,
+  "browser_checks": 41,
+  "build": "passed",
+  "model_fits": 3,
+  "model_sha256": "8e5282baf220f660a1fc3908b4265c95831720a8ddccb40024b3343f6f884e1d",
+  "data_sha256": "92d02eab165efc371a4b957d26a5911a06232978aa6a7d427e85384208c59fb1",
+  "frozen_evaluation_sha256": "2e733553b77ad395eb92e59d36a91c1efd44bcc513f799f5b203e22434b23458",
+  "markdown_links": "all local targets exist",
+  "server": "http://127.0.0.1:8774/",
+  "public_deployment": false
+}
